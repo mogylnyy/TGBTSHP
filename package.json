@@ -1,0 +1,16 @@
+{
+  "name": "telegram-webapp-bot",
+  "version": "1.0.0",
+  "description": "Минимальный Telegram-бот на Telegraf для Railway с WebApp-кнопкой.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "telegraf": "^4.12.2"
+  }
+} 
